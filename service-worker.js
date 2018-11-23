@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/myreads-live/precache-manifest.131a6169c4ea2c802899aef8954ad398.js"
+  "/neighborhood-map-live/precache-manifest.5f395c80cf343bb9bf213afbed2eedd0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/myreads-live/index.html", {
+workbox.routing.registerNavigationRoute("/neighborhood-map-live/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
